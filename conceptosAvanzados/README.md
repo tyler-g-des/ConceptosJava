@@ -2,7 +2,7 @@ LIST {ArrayList, LinkedList}
 
 SET {hastSet,TreeSet= mantiene ordenamiento}
 
-TreeSet , HashSet
+Map {HashMap, TreeMap}
 
 *En el caso de los Tree TreeSet ,como son elemento que su orden viene por ordencacia
 Necesitan implementar la interfaz "comparable"
@@ -21,3 +21,23 @@ Necesitan implementar la interfaz "comparable"
 
 *Los linkedList y las list permiten iterar de todas las formas.
 
+METODOS DE LIST
+SIZE
+El primer parametro de las lista especifica la posicion del elemento en la lista
+REMOVE
+
+LINKED LIST
+getFirst
+getLast
+peekLast = no devuelven exception si no null 
+removeFirst
+removeLast
+pollFirst = elimina el elemento y  no devuelve la excepcion
+popFirst = elimina pero si devuelve la excepcion
+
+
+* Los mapas no son de la interfaz colection pero si almacenan datos
+* Las llaves no pueden repertirse en los MAP
+
+METODOS DE MAP
+PUT = guardar datos
