@@ -1,7 +1,7 @@
 package Collections.Set;
 
 
-import Collections.Set.Modelo.Alumno;
+import Collections.Modelo.Alumno;
 
 import java.util.Set;
 import java.util.TreeSet;

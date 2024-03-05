@@ -1,11 +1,13 @@
-package Collections.Set;
+package Collections.List;
 
 
 import Collections.Modelo.Alumno;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
-public class EjemploHahSetUnificado {
+public class EjemploListComparableComparator {
     public static void main(String[] args) {
 
         //Set<Alumno> sa = new HashSet<>();

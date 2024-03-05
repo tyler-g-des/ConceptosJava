@@ -1,4 +1,4 @@
-package Collections.Set.Modelo;
+package Collections.Modelo;
 
 import java.util.Objects;
 

@@ -3,7 +3,7 @@ package Collections.Set;
 import java.util.HashSet;
 import java.util.Set;
 
-public class EjemploHasSetBuscardDuplicados2 {
+public class EjemploHashSetBuscardDuplicados2 {
     public static void main(String[] args) {
 
         String[] peces = {"Corvina","Lenguado","Pejerrey","Robalo","Atun","Lenguado","Atun"};
