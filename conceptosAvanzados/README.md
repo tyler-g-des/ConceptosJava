@@ -1,25 +1,23 @@
-LIST {ArrayList, LinkedList}
+# LIST {ArrayList, LinkedList}
+# SET {LinkedHashSet, hashSet,TreeSet}
+# Map {HashMap, TreeMap}
 
-SET {hastSet,TreeSet= mantiene ordenamiento}
-
-Map {HashMap, TreeMap}
-
-*En el caso de los Tree TreeSet ,como son elemento que su orden viene por ordencacia
+* En el caso de los Tree TreeSet ,como son elemento que su orden viene por ordencacia
 Necesitan implementar la interfaz "comparable"
 
-*Comparable (recordemos que esta interfaz nos obligaba a implementar el método compareTo (Object o))
+* Comparable (recordemos que esta interfaz nos obligaba a implementar el método compareTo (Object o))
 
-*¿qué ocurre si queremos ordenar las Personas digamos por su altura, o por su nombre en orden alfabético? Pues que el orden natural definido no nos sirve y debemos de recurrir a la interfaz Comparator para implementar el método compare 
+* ¿qué ocurre si queremos ordenar las Personas digamos por su altura, o por su nombre en orden alfabético? Pues que el orden natural definido no nos sirve y debemos de recurrir a la interfaz Comparator para implementar el método compare 
 
-*En los datos primitivos no se puede utilizar el método compareTo por que no son objetos se devuelve el numero.
+* En los datos primitivos no se puede utilizar el método compareTo por que no son objetos se devuelve el numero.
 
-*En el caso de los TreeSet no repite los valores por los cuales se esta comparando en el compareTo de la interfaz *Comparable*, para cambiar esto hay que utilizar el equals y hashcode implementandolo en la clase que se desea utilizar. 
+* En el caso de los TreeSet no repite los valores por los cuales se esta comparando en el compareTo de la interfaz *Comparable*, para cambiar esto hay que utilizar el equals y hashcode implementandolo en la clase que se desea utilizar. 
 
-*Aqui se ve la diferencia entre hashSet y TreeSet uno es un arbol que implementa comparator para determinar los repetidos y Hash utiliza equals y hash para poder comparar
+* Aqui se ve la diferencia entre hashSet y TreeSet uno es un arbol que implementa comparator para determinar los repetidos y Hash utiliza equals y hash para poder comparar
 
-*Los SET no tienen metodo get por eso no se puede recorrer con un for tradiccional.
+* Los SET no tienen metodo get por eso no se puede recorrer con un for tradiccional.
 
-*Los linkedList y las list permiten iterar de todas las formas.
+* Los linkedList y las list permiten iterar de todas las formas.
 
 METODOS DE LIST
 SIZE
@@ -41,3 +39,18 @@ popFirst = elimina pero si devuelve la excepcion
 
 METODOS DE MAP
 PUT = guardar datos
+
+# FECHA 
+* Las fechas vienen del paquete java.util y se necesita crear un objeto de la clase Date
+  
+* Con la clase SimpleteDateFormat damos formato de fecha 
+https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
+
+## Milisegundos 
+* Para esto se utiliza el metodo getTime
+ 
+## Trabajar con fechas diferentes a la actual
+* para esto se utiliza la clase calendar del paquete java.util, es una clase abstata asi que no permite crearse con el operador new
+* Con el metodo set definimos el tiempo
+
+## Conversiones de fecha a string
