@@ -1,4 +1,4 @@
-package org.aguzman.Date;
+package Date;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
