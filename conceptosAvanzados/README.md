@@ -40,7 +40,7 @@ popFirst = elimina pero si devuelve la excepcion
 METODOS DE MAP
 PUT = guardar datos
 
-# FECHA 
+# FECHA - Date - SimpleDateFormat - Caledar
 * Las fechas vienen del paquete java.util y se necesita crear un objeto de la clase Date
   
 * Con la clase SimpleteDateFormat damos formato de fecha 
@@ -54,3 +54,19 @@ https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
 * Con el metodo set definimos el tiempo
 
 ## Conversiones de fecha a string
+
+# LocalDate - LocalTime - LocalDateTime
+## LocalDate
+* of = permite definir la fecha como calendar
+* now = fecha actual
+* parse = pasa de string a localdate
+* plusDys = sumar un dia
+* minus = reducir un mes
+* isBefore - isAfter = comparacion
+* getDayOfWeek = Dias de la semana permite guardarlo en objeto DayOfWeek que recibe el LocalDate
+
+# LocalTime 
+* Mismo metodos que LocalDate
+* DateTimeFormatter.ofPattern = permite definir la fecha
+
+#Period - ZonedDateTime
